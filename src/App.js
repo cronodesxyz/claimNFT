@@ -40,7 +40,7 @@ function App() {
                 </div>
                 <div className="col">
                     <BuyForm/>
-
+                  <h3 className='clickOnce'> CLICK ONLY ONE TIME</h3>
                 </div>
 
 
