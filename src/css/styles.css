@@ -25,14 +25,17 @@ body{
     display:inline-block;
     background-color:#273249;
     width:359px;
-    height:46%;
+    height:55%;
     position:relative;
     top:50px;
     border-radius:30px;
     min-width:320px;
   }
 
-
+.clickOnce{
+  color:#fff;
+  margin-top: 0;
+}
 
 
   .video-mask{
@@ -41,7 +44,7 @@ body{
   border-radius: 30px; 
   overflow: hidden;
   border: #fff solid 4px;
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   position: relative;
 
