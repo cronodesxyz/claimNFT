@@ -1,7 +1,6 @@
 import { useEthers } from '@usedapp/core'
 import "../css/styles.css";
-import {NFT_ADDRESS, NFT_ABI} from "../nftConfig"
-import Web3 from "web3"
+
 
 
 export const Wallet = () => {
@@ -10,8 +9,6 @@ export const Wallet = () => {
     const isConnected = account !== undefined
 
 
-    const web3 = new Web3(Web3.givenProvider)
-    const contract = new web3.eth.Contract(NFT_ABI, NFT_ADDRESS)
 
 
     const handleActiveSubmit = async () => {
