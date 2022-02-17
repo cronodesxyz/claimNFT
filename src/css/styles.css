@@ -1,0 +1,197 @@
+body{
+    background-color:#071226;
+    text-align: center;
+  }
+
+  #imgContainer{
+    height:150px;
+    width:100%;
+    text-align:center;
+  }
+
+  #logo{
+    position:relative;
+    width:250px;
+    padding-top:50px;
+  }
+
+  #pgContent{
+    width:100%;
+    height:450px;
+    text-align:center;
+  }
+
+  #claimBox{
+    display:inline-block;
+    background-color:#273249;
+    width:359px;
+    height:46%;
+    position:relative;
+    top:50px;
+    border-radius:30px;
+    min-width:320px;
+  }
+
+
+
+
+  .video-mask{
+  width: 350px;
+  height: 350px;
+  border-radius: 30px; 
+  overflow: hidden;
+  border: #fff solid 4px;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+
+}
+
+.headInfo{
+  text-align: center;
+  color: #fff;
+}
+
+.nftInfo{
+  height: 350px;
+  width: 500px;
+  border-radius: 30px;
+  background-color: #24324B;
+  margin: auto;
+  position: relative;
+  margin-top: 465px;
+  text-align: left;
+  padding:40px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+  p{
+    color:white;
+  }
+
+  button{
+    background-color:white;
+    border:none;
+    border-radius:30px;
+    height:35px;
+    width:120px;
+    color:#071226;
+    font-size:18px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color:#273249;
+    color:white;
+    border:3px solid;
+    border-color:white;
+  }
+
+  button:focus{
+    background-color:#273249;
+    color:lightgray;
+    border:3px solid;
+    border-color:lightgray;
+
+  }
+
+  .Claim-text {
+    padding-top:17px;
+    font-weight: 700;
+  }
+
+  .claim-button {
+    margin:10px;
+    width: 200px;
+    height: 80px;
+  }
+
+  .warning-text {
+    margin-top:5%;
+  }
+
+  .MHeader {
+    margin: 20px 0;
+
+
+}
+
+.mint{
+  margin-top: 10px;
+}
+
+.menuItems, a{
+    text-decoration: none;
+    color: var(--app-primary-text-color);
+    font-weight: 800;
+    font-size: .9rem;
+    margin: auto;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+}
+
+a:hover{
+    color: #81aaf0;
+}
+
+.logo2{
+    display: none;
+}
+
+#mobileMenu{
+    display: none;
+}
+
+.menuLogo{
+    color:#071226;
+}
+
+.spacer{
+  height: 100px;
+  background-color: transparent;
+  margin-top: 620px;
+}
+
+
+@media screen and (max-width:480px){
+  .video-mask{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px; 
+    overflow: hidden;
+    border: #fff solid 4px;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+  
+  }
+  
+  .headInfo{
+    text-align: center;
+    color: #fff;
+  }
+  
+  .nftInfo{
+    height: 465px;
+    width: 275px;
+    border-radius: 30px;
+    background-color: #24324B;
+    margin: auto;
+    position: relative;
+    margin-top: 500px;
+    text-align: left;
+    padding:40px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+
+  .spacer{
+    height: 100px;
+    background-color: transparent;
+    margin-top: 750px;
+  }
+}
